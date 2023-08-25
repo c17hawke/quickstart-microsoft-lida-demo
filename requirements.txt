@@ -1,4 +1,4 @@
 notebook
 ipywidgets
-tqdm
 python-dotenv
+lida
