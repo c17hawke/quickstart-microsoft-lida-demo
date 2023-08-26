@@ -2,33 +2,26 @@
 
 Automatically Generate Visualizations and Infographics with LLMs on your data
 
-> OFFICIAL DOCS: https://microsoft.github.io/lida/
+- OFFICIAL DOCS - [click here](https://microsoft.github.io/lida/)
 
-> PAPER: https://aclanthology.org/2023.acl-demo.11/
+- PAPER - [click here](https://aclanthology.org/2023.acl-demo.11/)
 
-> GITHUB REPO: https://github.com/microsoft/lida
+- GITHUB REPO- [click here](https://github.com/microsoft/lida)
 
-## How to install - 
+- OFFICIAL TUTORIAL NOTEBOOK - [click here](https://github.com/microsoft/lida/blob/main/notebooks/tutorial.ipynb)
 
-You can install `lida` like any other python package - 
+## Current demo setup -
+
+run the following command to install the setup -
 
 ```bash
-pip install lida
+bash init_setup.sh
 ```
 
-## How to run its UI - 
-
-export your API key - 
+run the following command to run the web UI of LIDA -
 
 ```bash
-export OPENAI_API_KEY=<your key>
-```
-
-run the following command to run its UI - 
-
-
-```bash
-lida ui  --port=8080 --docs
+bash run_lida.sh
 ```
 
 for more information you can check the official documentation link mentioned in the beginning
